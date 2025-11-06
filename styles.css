@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;             /* allows items to move to next row */
+  justify-content: space-between; /* first & last items touch edges */
+}
+
+.item {
+  width: 150px;        /* fixed size to avoid squashing */
+  height: 150px;
+  margin-bottom: 20px; /* spacing between rows */
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
